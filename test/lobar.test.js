@@ -1,4 +1,4 @@
-const _ = require("../src/lobar");
+const _ = require("../lib/lobar").default;
 
 const nums = [1, 2, 3];
 const obj = {

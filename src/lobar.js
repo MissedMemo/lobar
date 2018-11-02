@@ -1,6 +1,6 @@
 const _ = {};
 
-module.exports = _;
+export default _;
 
 _.forEach = _.each = (collection, callback) => {
   if (Array.isArray(collection)) {
