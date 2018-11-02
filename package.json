@@ -3,9 +3,6 @@
     "build": "babel src -d lib",
     "test": "yarn run build && node test/lobar.test.js"
   },
-  "babel": {
-    "presets": ["@babel/preset-env"]
-  },
   "devDependencies": {
     "@babel/cli": "^7.1.2",
     "@babel/core": "^7.1.2",
